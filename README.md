@@ -4,7 +4,7 @@ A custom endpoint boilerplate for directus headless CMS.
 ## Features
   - Uses a pre-configured rollup so that you can import and bundle commonjs and ES* modules with your custom endpoint.
   - dev.rollup.config.js uses [rollup-plugin-execute](https://www.npmjs.com/package/rollup-plugin-execute) to restart directus.
-  - restart is configurable in dev.rollup.config.js, you could use a command like `pm2 restart directus`, if you used pm2 to start directus with pm2 start --name directus
+  - restart is configurable in dev.rollup.config.js, you could use a command like `pm2 restart directus`, if you used pm2 to start directus with `pm2 start --name directus`
 
 ## Recommendations
   - User docker-compose to run your directus instance, then you can map the extensions directory to the repos with your extensions.
