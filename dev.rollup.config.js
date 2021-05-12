@@ -3,7 +3,6 @@ import { nodeResolve } from '@rollup/plugin-node-resolve';
 import commonjs from '@rollup/plugin-commonjs';
 import execute from 'rollup-plugin-execute';
 
-
 export default {
 	input: 'endpoint.js',
 	output: {
