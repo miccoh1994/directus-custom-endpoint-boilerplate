@@ -16,3 +16,11 @@ A custom endpoint boilerplate for directus headless CMS.
             - ./endpoints:/directus/extensions/endpoints
     ```
   - [Official Directus Docker-Compose File](https://docs.directus.io/guides/installation/docker/#docker-compose)
+
+## Usage
+
+### Bundle Endpoint for Production
+  `npm run build` or `yarn build`
+
+### Develop with directus
+  `npm run dev` or `yarn dev`
