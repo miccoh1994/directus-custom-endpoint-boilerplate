@@ -8,9 +8,9 @@ A custom endpoint boilerplate for directus headless CMS.
 ## Recommendations
   - User docker-compose to run your directus instance, then you can map the extensions directory to the repos with your extensions.
     e.g.
-    `yaml
+    ```yaml
           volumes:
         - ./modules/upload/dist:/directus/extensions/modules/upload
         - ./endpoints:/directus/extensions/endpoints
-    `
+    ```
   - [Official Directus Docker-Compose File](https://docs.directus.io/guides/installation/docker/#docker-compose)
