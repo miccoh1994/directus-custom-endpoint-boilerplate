@@ -7,7 +7,7 @@ A custom endpoint boilerplate for directus headless CMS.
   - restart is configurable in dev.rollup.config.js, you could use a command like `pm2 restart directus`, if you used pm2 to start directus with `pm2 start --name directus`
 
 ## Recommendations
-  - User docker-compose to run your directus instance, then you can map the extensions directory to the repos with your extensions.
+  - User docker-compose to run your local directus instance, then you can map the extensions directory to the repos with your extensions.
     e.g.
     ```yaml
         container_name: directus
